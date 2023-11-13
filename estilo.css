@@ -1,0 +1,59 @@
+body{
+    margin-left: 150px;    
+    margin-right: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 600%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#esquerda , #direita {
+    width: 50%;
+    min-height: 70vh;
+    display: inline-block;
+}
+#direita {
+    text-align: right;
+}
+#menu ul {
+    display: flex;
+    list-style: none;
+}
+#menu ul li {
+    padding-right: 10px;
+}
+#menu ul li:hover {
+    border-top: blueviolet 1px;
+}
+
+#cabecalho {
+    border-bottom: blueviolet 1px;
+}
+
+#headerconteudo {
+    display: flex;
+}
+
+
+#rodape {
+    text-align: center;
+    padding-top: 20px;
+    clear: both;
+}
+
+#principal {
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+
+}
+
+#esquerdacont , #direitacont {
+    width: 50%;
+    min-height: 70vh;
+    display: inline-block;
+}
